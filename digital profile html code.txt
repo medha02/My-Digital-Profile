@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProGrad</title>
+    <link rel="stylesheet" href="style1.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo-text">ProGrad</li>
+            <li>
+                <ul>
+                    <li><a href="#home" class="nav-link">HOME</a></li>
+                    <li><a href="#bio" class="nav-link">BIO</a></li>
+                    <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+                    <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li><a href="#contact" class="nav-link link-button">CONTACT</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <header id="home">
+        <div>
+            <p>I Believe In</p>
+        </div>
+        <h1>EAT(); CODE(); SLEEP(); REPEAT();</h1>
+    </header>
+    <section id="bio">
+        <img src="./my pic.jpg" alt="Profile Photo" />
+        <article>
+            <h2>ProGrad 007</h2>
+            <p>
+                <h4>
+                    I have done schooling from Loyola School Bilaspur. I am pursuing Btech from Computer Science and
+                    Engineering from SRGI.
+                    I have good experience in Python and Machine Learning.Also I am a learner in HTML and CSS.
+                    <span class="break"></span>
+                    I am seeking for a competitive and challenging environment in a
+                    company where I can meet personal as well as organizational goals.
+                </h4>
+            </p>
+            <a href="https://drive.google.com/file/d/1ypQKM2jp2vxNToyKcKdnPPhSm5dggd2B/view?usp=sharing" target="blank"
+                class="link-button">Download My Resume</a>
+        </article>
+    </section>
+    <section id="portfolio">
+        <h3>PORTFOLIO</h3>
+        <p>
+            <h4>Some of My Best Projects So Far</h4>
+        </p>
+        <hr />
+        <div>
+            <article>
+                <img src="./Coding-icon.svg" alt="Code" />
+                <h4>PERSONAL BLOG</h4>
+                <p>
+                    <h4>Here I pen down my personls thoughts on programming</h4>
+                </p>
+            </article>
+            <article>
+                <img src="./Coding-icon.svg" alt="Code" />
+                <h4>TIC TAC TOE</h4>
+                <p>
+                    <h4>Full TIC TAC TOE game developed using Python</h4>
+                </p>
+            </article>
+            <article>
+                <img src="./Coding-icon.svg" alt="Code" />
+                <h4>TIME TABLE GENERATOR</h4>
+                <p>
+                    <h4>Using Python this helps us to create a time table for our daily schedule</h4>
+                </p>
+            </article>
+        </div>
+    </section>
+    <section id="skills">
+        <h3>SKILLS</h3>
+        <div id="skills-container">
+            <div>
+                <h4>Technical Skills</h4>
+
+                <div>
+                    <ul>
+                        <li>HTML</li>
+                        <li><progress max="100" value="80"></progress></li>
+                        <li>JAVA</li>
+                        <li><progress max="100" value="50"></progress></li>
+                        <li>PYTHON</li>
+                        <li><progress max="100" value="80"></progress></li>
+                        <li>JS</li>
+                        <li><progress max="100" value="60"></progress></li>
+                        <li>ANGULAR</li>
+                        <li><progress max="100" value="50"></progress></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h4>LANGUAGES</h4>
+                <div>
+                    <ul>
+                        <li>ENGLISH</li>
+                        <li><progress max="100" value="90"></progress></li>
+                        <li>HINDI</li>
+                        <li><progress max="100" value="95"></progress></li>
+                        <li>KANNADA</li>
+                        <li><progress max="100" value="50"></progress></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer id="contact">
+        <h3>CONTACT</h3>
+        <form action="">
+            <input class="input" type="text" placeholder="ENTER YOUR NAME" />
+            <br /><br />
+            <input class="input" type="text" placeholder="ENTER YOUR EMAIL" />
+            <br /><br />
+            <input class="input" type="text" placeholder="ENTER YOUR MESSAGE" />
+            <br /><br />
+            <input type="Submit" class="link-button" value="SEND MESSAGE" />
+        </form>
+    </footer>
+</body>
+
+</html>
